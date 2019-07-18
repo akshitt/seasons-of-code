@@ -18,12 +18,13 @@ with open('songdata.csv', 'r') as csvfile:
 text = ''
 j=0
 for i in range(len(rows)):
-	if(rows[i][0] == 'Eminem'):
-		text+=rows[i][3]
-		j=j+1
-
+    if(rows[i][0] == 'The Weeknd'):
+        text+=rows[i][3]
+        j=j+1
+        print(rows[i][1])
+        
 file = open("lyrics.txt",'w')
 file.write(text)
 file.close()
 
-# print(text,j)
+print(j)
