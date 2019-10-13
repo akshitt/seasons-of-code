@@ -27,4 +27,4 @@ file = open("lyrics.txt",'w')
 file.write(text)
 file.close()
 
-print(j)
+# print(j)
